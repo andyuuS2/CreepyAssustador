@@ -24,8 +24,8 @@ body {
 }
 .barra {
     border-radius: 50px;
-    width: 500px;
-    height: 40px;
+    width: 700px;
+    height: 50px;
     position: absolute; 
     top: 10px; 
     left: 10px;
@@ -33,9 +33,79 @@ body {
     font-size: 16px;
     margin-top: 175px;
     margin-left: 90px;
-    color: #BE999C;
+    color: #ff0015;
 }
+.lupa {
+    height: 50px;
+    width: 50px;
+    left: 10px;
+    position: absolute;
+    top: 185px;
+    margin-left: 20px;
+}
+.linha {
+    position: absolute; 
+    width: 6px; 
+    height: 1000px; 
+    left: 850px; 
+    background: #C0313D;
+}
+.gritos {
+    position: absolute;
+    width: 775px;
+    height: 416px;
+    left: 32px;
+    top: 300px;
+    background: #BE999C;
+    border-radius: 10px;
+}
+.slenderman {
+    position: absolute;
+    width: 775px;
+    height: 416px;
+    left: 32px;
+    top: 750px;
+    background: #BE999C;
+    border-radius: 10px;
 
+}
+.perguntas {
+position: absolute;
+width: 360px;
+height: 50px;
+left: 875px;
+top: 200px;
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 47px;
+color: #C0313D;
+
+}
+.jeff {
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: absolute;
+width: 300px;
+height: 310px;
+left: 905px;
+top: 250px;
+}
+.maria {
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: absolute;
+width: 300px;
+height: 310px;
+left: 905px;
+top: 600px;
+}
 h1 {
     font-size: 7em;
     
